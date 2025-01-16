@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chez Bruno - Garba</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Chez Bruno - Le paradis du Garba</h1>
+    </header>
+
+    <main>
+        <section class="menu">
+            <h2>Menu</h2>
+            <div class="product">
+                <img src="images/poisson.jpg" alt="Poisson">
+                <h3>Poisson 1</h3>
+                <p>500 FCFA</p>
+                <button class="add-to-cart">Ajouter au panier</button>
+            </div>
+            <div class="product">
+                <img src="images/poisson(2).jpg" alt="Poisson 2">
+                <h3>Poisson 2</h3>
+                <p>300 FCFA</p>
+                <button class="add-to-cart">Ajouter au panier</button>
+            </div>
+            <div class="product">
+                <img src="images/poisson.jpg" alt="Poisson 3">
+                <h3>Poisson 3</h3>
+                <p>600 FCFA</p>
+                <button class="add-to-cart">Ajouter au panier</button>
+            </div>
+            {/* Ajouter d'autres produits ici */}
+        </section>
+
+        <section class="panier">
+            <h2>Panier</h2>
+            <div id="panier-items"></div>
+            <p>Total: <span id="total">0</span> FCFA</p>
+            <button id="vider-panier">Vider le panier</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Chez Bruno</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

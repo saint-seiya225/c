@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Commande en ligne</title>
+</head>
+<body>
+  <h2>Choisissez vos produits</h2>
+
+  <h3>Poissons</h3>
+  <input type="checkbox" id="poisson1" value="500">
+  <label for="poisson1">Poisson 1 (500 F)</label>
+  <input type="checkbox" id="poisson2" value="300">
+  <label for="poisson2">Poisson 2 (300 F)</label>
+  <input type="checkbox" id="poisson3" value="600">
+  <label for="poisson3">Poisson 3 (600 F)</label>
+
+  <h3>Attiéké</h3>
+  <label for="quantite_attieké">Quantité (en grammes):</label>
+  <input type="number" id="quantite_attieké" min="1">
+
+  <h3>Assaisonnements</h3>
+  <input type="checkbox" id="assaisonnement1" value="50">
+  <label for="assaisonnement1">Assaisonnement 1 (50 F)</label>
+  <button onclick="calculerTotal()">Calculer le total</button>
+
+  <div id="total"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
